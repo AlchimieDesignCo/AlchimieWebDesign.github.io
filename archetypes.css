@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Raleway:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+    }
+    
+    
+    
+    
+    body{
+    
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    
+    color:#868686;
+    
+    
+    
+    }
+    
+    #desktopNav{
+      
+       color: #555555;
+    }
+    
+     
+     a{
+        color:#555555;
+        text-decoration: none;
+    
+     }
+    
+    .navItem
+    {
+        display: inline;
+        padding:3%;
+        color:rgb(100, 100, 99);
+    }
+    
+    .rightLinks{
+        margin-top:-3vh;
+        margin-left:66vw;
+        color:rgb(241, 241, 241);
+    }
+    
+    #book{
+        margin-left:-11vw;
+    
+        background-color: #555555;
+        color:#ffffff;
+    }
+
+main{
+    margin-top:30vh;
+    margin-left:10vw;
+    width:80vw;
+}
+
+
+.pageTitle{
+    position: absolute;
+    margin-top:-10vh;
+    margin-left:10vw;
+    font-size:4rem;
+    font-family: 'Allura', cursive;
+    font-weight: lighter;
+    color:rgb(107, 107, 107);
+}
+
+.pageSubTitle{
+    position: absolute;
+    margin-top:3vh;
+    margin-left:25vw;
+}
+
+.logo{
+    margin-top:40vh;
+    margin-left:20vw;
+    width:40vw;
+    height:40vh;
+}
+.sectionText{
+    position: absolute;
+    margin-top:10vh;
+}
+
+.footer{
+    position: absolute;
+    margin-top:-80vh;
+}
+
+
+
+
+    .footer{
+        position: absolute;
+    margin-top:400px;
+        height:200px;
+        width:100vw;
+        background-color:#868686;
+        color:white;
+        }
+        
+        .footertitle{
+            position: absolute;
+            margin-top:40vh;
+        font-family: 'Allura', cursive;
+        font-size: 3rem;
+        font-weight: lighter;
+        color:rgb(79, 87, 85); height:200px;
+        }
+    
+        #alchimie{
+            position: absolute;
+            margin-top:10vh;
+            margin-left:42vw !important;
+            font-size:2rem;
+        }
+        
+        .footerLink{
+        color:white;
+        text-decoration: none;
+        list-style-type: none;
+        font-size:24px;
+        }
+        .class1{
+        position: absolute;
+        margin-top:6vh;
+        margin-left:20vh;
+        }
+        
+        .class2{
+        position: absolute;
+        margin-top:6vh;
+        margin-left:67vw;
+        }
+    
+        #about{
+            position: absolute;
+            margin-left:-3vw;
+        }
+    
+        #archetypes{
+            position: absolute;
+            margin-top:1vh;
+            margin-left:-3vw;
+        }
+        
+       #contact{
+        position: absolute;
+        margin-top:11vh;
+        margin-left:-4vw;
+       }
+    
+       #more{
+        position: absolute;
+        margin-top:6vh;
+        margin-left:-3vw;
+       }
+        
+        .signature{
+        position: absolute;
+        margin-top:30vh;
+        margin-left:20vw;
+        }
+        
+        
+        
+        .iconFooter{
+        position: absolute;
+        margin-top:24vh;
+        margin-left:43vw;
+        width:4vw;
+        height:4vh;
+        }
+        
+        *#fb{
+        margin-left:45vw;
+        }
+        
+        #ig{
+        margin-left:50vw;
+        }
+        
+        #gmail{
+        margin-left:55vw;
+        }
+        
+        .footertitle{
+        padding-top:20vh;
+        margin-top:-10vh !important;
+        margin-left:30vw;
+        font-size:3rem;
+        
+        }
+        
+        #alchimie{
+            margin-top:-20vh;
+            margin-left:25vw;
+        }
+
+
+
+
+    
+    
+    
+    @media screen and (min-width:700px){
+
+        .rightLinks{
+            margin-left:80vw;
+        }
+
+        .pageTitle{
+            font-size:7rem;
+            margin-left:17vw;
+        }
+
+        .pageSubTitle{
+            margin-left:35vw;
+        }
+
+        .sectionText{
+            position: absolute;
+            margin-top:16vh;
+            margin-left:14vw !important;
+            font-size:22px;
+            width:50vw;
+        }
+
+        .logo{
+            margin-top:60vh;
+            margin-left:29vw;
+         width:50vh;
+         height:20vw;
+        }
+
+        .footer{
+            position: absolute;
+        margin-top:400px;
+            height:200px;
+            width:100vw;
+            background-color:#868686;
+            color:white;
+            }
+            
+            .footertitle{
+                position: absolute;
+                margin-top:40vh;
+            font-family: 'Allura', cursive;
+            font-size: 3rem;
+            font-weight: lighter;
+            color:rgb(79, 87, 85); height:200px;
+            }
+        
+            #alchimie{
+                position: absolute;
+                margin-top:10vh;
+                margin-left:42vw !important;
+                font-size:4rem;
+            }
+            
+            .footerLink{
+            color:white;
+            text-decoration: none;
+            list-style-type: none;
+            font-size:24px;
+            }
+            .class1{
+            position: absolute;
+            margin-top:6vh;
+            margin-left:50vh;
+            }
+            
+            .class2{
+            position: absolute;
+            margin-top:6vh;
+            margin-left:67vw;
+            
+            }
+        
+           
+            #archetypes{
+                position: absolute;
+                margin-top:2vh;
+                margin-left:-3vw;
+            }
+            
+           #contact{
+            position: absolute;
+            margin-top:10vh;
+            margin-left:-3vw;
+           }
+        
+           #more{
+            position: absolute;
+            margin-top:6vh;
+            margin-left:-3vw;
+           }
+            
+            .signature{
+            position: absolute;
+            margin-top:28vh;
+            margin-left:37vw;
+            }
+            
+            
+            
+            .iconFooter{
+            position: absolute;
+            margin-top:24vh;
+            margin-left:43vw;
+            width:2vw;
+            height:4vh;
+            }
+            
+            *#fb{
+            margin-left:45vw;
+            }
+            
+            #ig{
+            margin-left:50vw;
+            }
+            
+            #gmail{
+            margin-left:55vw;
+            }
+            
+            
+            
+            #alchimie{
+                margin-top:-20vh;
+                margin-left:25vw;
+            }
+    
+    
+    
+    
+
+        
+
+    }

@@ -1,0 +1,1081 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Cormorant+Garamond:wght@300&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Raleway:wght@300&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+body{
+   
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+header{
+  overflow-x: hidden;
+  height:90vh;
+}
+
+.mobile-container {
+   
+    margin: auto;
+  
+    
+    color: rgb(189, 21, 21);
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #30242425;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: rgb(12, 74, 77);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #f4faf3;
+    color: rgb(80, 80, 80);
+  }
+  
+  .active {
+    background-color: #f8f4f4;
+    color: rgb(14, 1, 1);
+  }
+
+  .nav-dsktop{
+    display:none;
+  }
+
+  .subTitle{
+    display:none;
+  }
+
+  
+  img{
+    width:20%;
+    height:30%;
+
+  }
+  .headerImg{
+margin-left:20vh;
+    max-height:80vh;
+    min-height:80vh;
+  max-width:30vw;
+  min-width:60vw;  
+  box-shadow:  1px 0px 15px 18px rgba(224, 224, 224, 0.85);
+    
+  }
+
+  h2{
+    margin-left:30%;
+    font-family: 'Allura', cursive;
+      font-size: 2rem;
+      font-weight: lighter;
+      color:rgb(107, 107, 107);
+  }
+
+  .slogan{
+    position: absolute;
+   margin-top:-20vh;
+   margin-left:23vw;
+    font-family: 'Allura', cursive;
+      font-size: 2rem;
+      font-weight: lighter;
+      color:rgb(247, 247, 247);
+  
+  }
+
+  #topLink {
+    margin-left:42%;   
+    padding:5px 6px 5px 3px;
+    background-color: rgba(64, 66, 66, 0.39);
+    text-decoration: none;
+    color:beige;
+  }
+
+  
+#websites{
+ 
+  margin-top:20%;
+}
+
+.websiteSample{
+ width:37%;
+ height:23%;
+}
+
+#emerald{
+ position: absolute;
+  margin-top:-7vh;
+   margin-left:30vw;
+  
+   box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+ }
+
+ #blackDesktop{
+  position: absolute;
+  margin-top:13vh;
+  margin-left:5vw;
+ box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  z-index:-1;
+}
+
+
+#cassandra2{
+ position: absolute;
+ margin-top:13vh !important;
+ margin-left:74vw;
+ z-index:-1;
+ box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  
+}
+
+.pageTitle{
+  position: absolute;
+  margin-top:64vh;
+  margin-left:34vw;
+  font-family: 'Allura', cursive;
+  font-size: 3rem;
+  font-weight: lighter;
+  color:rgb(79, 87, 85);
+}
+
+#nature{
+   position: absolute;
+  margin-top:56vh;
+   margin-left: 10vw;
+  box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+   z-index:1;
+ }
+
+
+#poloriodSample{
+  position: absolute;
+    margin-top:78vh;
+    margin-left:26vw !important;
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  }
+
+
+  #blog{
+   position: absolute; margin-top:5vh;
+    margin:60vh;
+    margin-left:50vw;
+   
+  
+   
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  }
+
+ 
+
+  
+ #alchSite{
+     
+    margin-top:40vh;
+    margin-left:10vw;
+    
+   
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  }
+  
+ 
+
+  
+  #cassandra{
+    
+  margin-top:98vh;
+   margin-left:-54vw;
+   
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  z-index:-1;
+  }
+
+  
+  
+   .sectionCaption{
+    position: absolute;
+   
+    font-size:8px;
+    margin-top:-11vh;
+    margin-left:3vh;
+    
+    
+  }
+
+  #webText{
+    margin-left:5vw;
+    width:90vh;
+  }
+
+  #graphic{
+    margin-top:10vh;
+  }
+
+  #graphicCaption{
+    margin-top:-10vh;
+    margin-left:30%;
+  }
+
+  #logos{
+    margin-top:30vh;
+    margin-left:5vw;
+  }
+
+
+  .logo{
+
+    height:30vh;
+    width:30vw;
+  }
+
+  #logo1{
+    position: absolute;
+    margin-top:-20vh;
+    margin-left:30vw;
+   height:30vh;
+   width:30vw;
+  }
+
+  #logo5{
+    
+    margin-top:-4vh;
+    margin-left:37vw;
+    height:20vh;
+   width:20vw;
+
+  }
+
+  #graphicHeader{
+   margin-left:32vw;
+    margin-top:6vh;
+  }
+
+  .footer{
+
+   margin-top:40vh;
+    width:100vw;
+    background-color:#868686;
+    color:white;
+  }
+
+  .footertitle{
+    font-family: 'Allura', cursive;
+  font-size: 3rem;
+  font-weight: lighter;
+  color:rgb(79, 87, 85); height:200px;
+  }
+
+  .footerLink{
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .class1{
+    position: absolute;
+    margin-top:3vh;
+    margin-left:20vh;
+  }
+
+  .class2{
+    position: absolute;
+    margin-top:3vh;
+    margin-left:67vw;
+  }
+
+  #contact{
+    position:absolute;
+    margin-top:3vw;
+    margin-left:-24vw;
+  }
+
+  .signature{
+    position: absolute;
+    margin-top:-5vh;
+    margin-left:20vw;
+  }
+
+ 
+ 
+  .iconFooter{
+    position: absolute;
+    margin-top:-14vh;
+    margin-left:10vw;
+    width:6%;
+    height:6%;
+  }
+
+  #fb{
+    margin-left:32vw;
+  }
+
+  #ig{
+    margin-left:45vw;
+  }
+
+  #gmail{
+    margin-left:60vw;
+  }
+
+  .footertitle{
+padding:5%;
+padding-left: 10vw;
+    font-size:32px;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+@media screen and (min-width:564px) {
+  #websiteCaption{
+    margin-left:8vw;
+  }
+
+  #webText{
+   margin-left:10vw;
+    width:80vw;
+  }
+
+  #graphicHeader{
+    margin-left:35vw;
+  }
+
+  #graphicCaption{
+    margin-left:35vw;
+  }
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:659px)
+{
+  body{
+   
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+   
+
+}
+
+header{
+  overflow-x: hidden;
+  height:90vh;
+}
+
+.mobile-container {
+   
+    margin: auto;
+  
+    
+    color: rgb(189, 21, 21);
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #30242425;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: rgb(12, 74, 77);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: #f4faf3;
+    color: rgb(80, 80, 80);
+  }
+  
+  .active {
+    background-color: #f8f4f4;
+    color: rgb(14, 1, 1);
+  }
+
+  .nav-dsktop{
+    display:none;
+  }
+
+  .subTitle{
+    display:none;
+  }
+
+  
+  img{
+    width:20%;
+    height:30%;
+
+  }
+  .headerImg{
+margin-left:20vh;
+    max-height:80vh;
+    min-height:80vh;
+  max-width:30vw;
+  min-width:60vw;  
+  box-shadow:  1px 0px 15px 18px rgba(224, 224, 224, 0.85);
+    
+  }
+
+  h2{
+    margin-left:30%;
+    font-family: 'Allura', cursive;
+      font-size: 2rem;
+      font-weight: lighter;
+      color:rgb(107, 107, 107);
+  }
+
+  .slogan{
+    position: absolute;
+   margin-top:-20vh;
+   margin-left:26vw;
+    font-family: 'Allura', cursive;
+      font-size: 2rem;
+      font-weight: lighter;
+      color:rgb(247, 247, 247);
+  
+  }
+
+  #topLink {
+    margin-left:36vw;   
+    padding:5px 6px 5px 3px;
+    background-color: rgba(64, 66, 66, 0.39);
+    text-decoration: none;
+    color:beige;
+  }
+
+  
+#websites{
+ 
+  margin-top:20%;
+}
+
+.websiteSample{
+ width:37%;
+ height:23%;
+}
+
+#emerald{
+ position: absolute;
+  margin-top:-7vh;
+   margin-left:30vw;
+  
+   box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+ }
+
+ #blackDesktop{
+  position: absolute;
+  margin-top:13vh;
+  margin-left:5vw;
+ box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  z-index:-1;
+}
+
+
+#cassandra2{
+ position: absolute;
+ margin-top:13vh !important;
+ margin-left:74vw;
+ z-index:-1;
+ box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  
+}
+
+.pageTitle{
+  position: absolute;
+  margin-top:72vh;
+  margin-left:38vw;
+  font-family: 'Allura', cursive;
+  font-size: 3rem;
+  font-weight: lighter;
+  color:rgb(79, 87, 85);
+}
+
+#nature{
+   position: absolute;
+  margin-top:56vh;
+   margin-left: 10vw;
+  box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+   z-index:1;
+ }
+
+
+#poloriodSample{
+  position: absolute;
+    margin-top:78vh;
+    margin-left:26vw !important;
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  }
+
+
+  #blog{
+   position: absolute; margin-top:5vh;
+    margin:60vh;
+    margin-left:50vw;
+   
+  
+   
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  }
+
+ 
+
+  
+ #alchSite{
+     
+    margin-top:40vh;
+    margin-left:10vw;
+    
+   
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  }
+  
+ 
+
+  
+  #cassandra{
+    
+  margin-top:98vh;
+   margin-left:-54vw;
+   
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  z-index:-1;
+  }
+
+  
+  
+   .sectionCaption{
+    position: absolute;
+   
+    font-size:8px;
+    margin-top:-11vh;
+    margin-left:4vw;
+    
+    
+  }
+
+  #websiteCaption{
+    position: absolute;
+    margin-left:16vw;
+  }
+
+  #websiteHeader{
+    margin-left:37vw;
+  }
+
+  #webText{
+    margin-left:15vw;
+    width:90vh;
+  }
+
+  #graphic{
+    margin-top:10vh;
+  }
+
+  
+
+  #graphicCaption{
+    margin-top:-10vh;
+    margin-left:36vw;
+  }
+
+  #logos{
+    margin-top:30vh;
+    margin-left:5vw;
+  }
+
+
+  .logo{
+
+    height:30vh;
+    width:30vw;
+  }
+
+  #logo1{
+    position: absolute;
+    margin-top:-20vh;
+    margin-left:30vw;
+   height:30vh;
+   width:30vw;
+  }
+
+  #logo5{
+    
+    margin-top:-4vh;
+    margin-left:37vw;
+    height:20vh;
+   width:20vw;
+
+  }
+
+  #graphicHeader{
+   margin-left:38vw;
+    margin-top:6vh;
+  }
+
+  .footer{
+
+   margin-top:40vh;
+    width:100vw;
+    background-color:#868686;
+    color:white;
+  }
+
+  .footertitle{
+    font-family: 'Allura', cursive;
+  font-size: 3rem;
+  font-weight: lighter;
+  color:rgb(79, 87, 85); height:200px;
+  }
+
+  .footerLink{
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .class1{
+    position: absolute;
+    margin-top:3vh;
+    margin-left:20vh;
+  }
+
+  .class2{
+    position: absolute;
+    margin-top:3vh;
+    margin-left:67vw;
+  }
+
+  #contact{
+    position:absolute;
+    margin-top:3vw;
+    margin-left:-24vw;
+  }
+
+  .signature{
+    position: absolute;
+    margin-top:-5vh;
+    margin-left:26vw;
+  }
+
+ 
+ 
+  .iconFooter{
+    position: absolute;
+    margin-top:-14vh;
+    margin-left:10vw;
+    width:6%;
+    height:6%;
+  }
+
+  #fb{
+    margin-left:32vw;
+  }
+
+  #ig{
+    margin-left:45vw;
+  }
+
+  #gmail{
+    margin-left:60vw;
+  }
+
+  .footertitle{
+padding:5%;
+padding-left: 10vw;
+    font-size:32px;
+    
+  }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1000px){
+  img{
+    width:20%;
+    height:30%;
+
+  }
+  .headerImg{
+margin-left:40vh;
+    max-height:80vh;
+    min-height:80vh;
+  max-width:30vw;
+  min-width:60vw;  
+  box-shadow:  1px 0px 15px 18px rgba(224, 224, 224, 0.85);
+    
+  }
+
+  h2{
+    margin-left:30%;
+    font-family: 'Allura', cursive;
+      font-size: 3rem;
+      font-weight: lighter;
+      color:rgb(107, 107, 107);
+  }
+
+  .slogan{
+    position: absolute;
+   margin-top:-20vh;
+   margin-left:36vw;
+    font-family: 'Allura', cursive;
+      font-size: 3rem;
+      font-weight: lighter;
+      color:rgb(105, 105, 105);
+  
+  }
+
+  #topLink {
+    margin-left:45vw;   
+    padding:5px 6px 5px 3px;
+    background-color: rgba(64, 66, 66, 0.39);
+    text-decoration: none;
+    color:beige;
+  }
+
+  
+#websites{
+ 
+  margin-top:20%;
+}
+
+.websiteSample{
+ height:40vh;
+ width:35vw;
+}
+
+#emerald{
+ position: absolute;
+  margin-top:-7vh;
+   margin-left:30vw;
+  
+   box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+ }
+
+ #blackDesktop{
+  position: absolute;
+  margin-top:13vh;
+  margin-left:5vw;
+ box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  z-index:-1;
+}
+
+
+#cassandra2{
+ position: absolute;
+ margin-top:13vh !important;
+ margin-left:74vw;
+ z-index:-1;
+ box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  
+}
+
+.pageTitle{
+  position: absolute;
+  margin-top:72vh;
+  margin-left:38vw;
+  font-family: 'Allura', cursive;
+  font-size: 3rem;
+  font-weight: lighter;
+  color:rgb(79, 87, 85);
+}
+
+#nature{
+   position: absolute;
+  margin-top:56vh;
+   margin-left: 10vw;
+  box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+   z-index:1;
+ }
+
+
+#poloriodSample{
+  position: absolute;
+    margin-top:95vh;
+    margin-left:26vw !important;
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  }
+
+
+  #blog{
+   position: absolute; 
+   margin-top:55vh;
+   
+    margin-left:50vw;
+   
+  
+   
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  }
+
+ 
+
+  
+ #alchSite{
+     
+    margin-top:40vh;
+    margin-left:10vw;
+    
+   
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  }
+  
+ 
+
+  
+  #cassandra{
+    
+  margin-top:98vh;
+   margin-left:-54vw;
+   
+    box-shadow: 12px 12px 12px 12px rgba(45, 46, 46, 0.247);
+  z-index:-1;
+  }
+
+  
+  
+   .sectionCaption{
+    position: absolute;
+   
+    font-size:8px;
+    margin-top:-3vh;
+    margin-left:26vw;
+    
+    
+  }
+
+  #websiteCaption{
+    position: absolute;
+    margin-left:26vw;
+  }
+
+  #websiteHeader{
+    margin-left:37vw;
+  }
+
+  #webText{
+    margin-left:26vw;
+    width:90vh;
+  }
+
+  #graphic{
+    margin-top:10vh;
+  }
+
+  
+
+  #graphicCaption{
+    margin-top:2vh;
+    margin-left:37vw;
+  }
+
+  #logos{
+    margin-top:30vh;
+    margin-left:5vw;
+  }
+
+
+  .logo{
+
+    height:30vh;
+    width:20vw;
+  }
+
+  #logo1{
+    position: absolute;
+    margin-top:-20vh;
+    margin-left:30vw;
+   width:20vw;
+   height:26vh;
+  }
+
+  #logo2{
+    margin-left:20vh;
+  }
+
+  #logo5{
+    
+    margin-top:1vh;
+    margin-left:33vw;
+    width:15vw;
+    height:20vh;
+    
+  }
+
+  #graphicHeader{
+    position: absolute;
+   margin-left:34vw;
+    margin-top:6vh;
+  }
+
+  .footer{
+
+   margin-top:57vh;
+    width:100vw;
+    height:220px;
+    background-color:#868686;
+    color:white;
+  }
+
+  
+
+  .footerLink{
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 26px;
+  }
+  .class1{
+    position: absolute;
+    margin-top:3vh;
+    margin-left:30vh;
+  }
+
+  .class2{
+    position: absolute;
+    margin-top:3vh;
+    margin-left:66vw;
+  }
+
+  #contact{
+    position:absolute;
+   margin-top:-1%;
+    margin-left:-1vw;
+  }
+
+  .signature{
+    position: absolute;
+    margin-top:30vh;
+    margin-left:33vw;
+  }
+
+ 
+ 
+  .iconFooter{
+    position: absolute;
+    margin-top:20vh;
+    margin-left:10vw;
+    width:2vw;
+    height:3vh;
+  }
+
+  #fb{
+    margin-left:32vw;
+  }
+
+  #ig{
+    margin-left:45vw;
+  }
+
+  #gmail{
+    margin-left:60vw;
+  }
+
+  .footertitle{
+    position: absolute;
+    margin-top: -5vh;
+    font-size:50px !important;
+    color:#f8f4f4;
+  }
+
+  
+   
+   
+    
+   
+
+    
+
+}
+
+
